@@ -1,6 +1,6 @@
 {
     "name": "@grigoreo-fox/n8n-nodes-telegram-webapp-auth",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Telegram WebApp Auth Node for n8n",
     "license": "MIT",
     "homepage": "",
@@ -48,7 +48,7 @@
     },
     "dependencies": {
         "@tma.js/init-data-node": "^2.0.3"
-    }, 
+    },
     "publishConfig": {
         "access": "public"
     }
