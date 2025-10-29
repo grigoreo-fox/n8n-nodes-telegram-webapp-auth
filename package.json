@@ -48,5 +48,8 @@
     },
     "dependencies": {
         "@tma.js/init-data-node": "^2.0.3"
+    }, 
+    "publishConfig": {
+        "access": "public"
     }
 }
