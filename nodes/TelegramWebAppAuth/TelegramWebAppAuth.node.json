@@ -1,0 +1,14 @@
+{
+	"node": "@grigoreo-fox/n8n-nodes-telegram-webapp-auth",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Developer Tools", "Telegram"],
+	"resources": {
+		"credentialDocumentation": [],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/grigoreo-fox/n8n-nodes-telegram-webapp-auth"
+			}
+		]
+	}
+}

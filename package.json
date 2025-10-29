@@ -1,0 +1,52 @@
+{
+    "name": "@grigoreo-fox/n8n-nodes-telegram-webapp-auth",
+    "version": "0.1.0",
+    "description": "Telegram WebApp Auth Node for n8n",
+    "license": "MIT",
+    "homepage": "",
+    "keywords": [
+        "n8n-community-node-package"
+    ],
+    "author": {
+        "name": "Gregory Fox",
+        "email": "grigoreo.fox@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/grigoreo-fox/n8n-nodes-telegram-webapp-auth.git"
+    },
+    "scripts": {
+        "build": "n8n-node build",
+        "build:watch": "tsc --watch",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
+        "lint:fix": "n8n-node lint --fix",
+        "release": "n8n-node release",
+        "prepublishOnly": "n8n-node prerelease"
+    },
+    "files": [
+        "dist"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "strict": true,
+        "credentials": [],
+        "nodes": [
+            "dist/nodes/TelegramWebAppAuth/TelegramWebAppAuth.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@n8n/node-cli": "*",
+        "@types/node": "^24.9.2",
+        "eslint": "9.32.0",
+        "prettier": "3.6.2",
+        "release-it": "^19.0.4",
+        "typescript": "5.9.2"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    },
+    "dependencies": {
+        "@tma.js/init-data-node": "^2.0.3"
+    }
+}
